@@ -1,18 +1,10 @@
-var buttonColours=["red","blue","green","yellow"]
+var buttonColours=["red","blue","green","yellow"];
 var gamePattern=[];
 var userClickedPattern=[];
 var level=0,once=true;
 $(".btn").click(onClick);
 var itr=0;
-$(".start-btn").click(function(){
-  if(once)
-  {  level=0;
-  gamePattern=[];
-  once=false;
-  nextSequence();
 
-  }
-});
 
 $("body").keypress(function()
 {
